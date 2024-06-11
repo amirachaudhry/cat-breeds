@@ -2,20 +2,29 @@
 <html lang="en">
  <head>
     <meta charset="UTF-8">
-    <title>Cat Breeds</title>
+    <title>Cat Breed Compare</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-
-    <h1>Search for a Cat breed</h1>
+    <div class="search-container">
+    <h1>Search and Compare </h1>
     <input type="text" id="search" placeholder="Type in a breed...">
     <button type="submit" id="button">Search</button>
-    <div id="result">
+    </div>
+
+    <div class="results" id="result1" >
         <p id="breedN"></p>
         <p id="lifeSpan"></p>
         <p id="fact"></p>
-        <img id="image" src="" alt="Cat image" style="display: none; max-width: 40%;">
+        <img id="image" src="" alt="Cat image" style="display: none; max-width: 20%;">
+    </div>
+
+    <div class="results" id="result2">
+        <p id="breedN2"></p>
+        <p id="lifeSpan2"></p>
+        <p id="fact2"></p>
+        <img id="image2" src="" alt="Cat image" style="display: none; max-width: 20%;">
     </div>
    
     <script src="index.js" type="text/javascript" ></script>
