@@ -40,6 +40,7 @@ document.getElementById('button').addEventListener('click', function() {
             image.style.display = 'block'
             // search count is incremented
             countSearches++;
+            document.getElementById('result1').style.display = 'block';
             }
         else if (countSearches == 1) {
             breedN2.textContent = `Name: ${result.name}`;
@@ -66,3 +67,10 @@ document.getElementById('button').addEventListener('click', function() {
         image.style.display = 'none';
     });
 });
+
+document.getElementById('clearButton').addEventListener('click', function() {
+    document.getElementById('result1').style.display = 'none';
+    document.getElementById('result2').style.display = 'none';
+    countSearches= 0;
+
+ });
