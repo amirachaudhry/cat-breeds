@@ -1,9 +1,10 @@
 # cat-data
 
-Overview
+Overview:
+
 This project is a web application that allows user to search for cat breeds and compare their features and traits. The implementation of this website supports the comparison of two cat breeds which are displayed side by side.
 
-Features
+Features:s
 
 Breed Information : The breed information is fetched from a JSON file within the same directory.
 
