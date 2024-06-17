@@ -13,8 +13,8 @@ Search Functionality : A search bar is used along with JavaScript to compare sea
 How to install:
 
 - Click on the Code<> button on repository and download as a zip file.
-- Save this file onto your own laptop or device.
-- To view application double click 'index.html' and it will open in a web browser.
+- Save this file onto your laptop or device.
+- To view application open in a text editor and open application on a web browser.
 
 How to use:
 
