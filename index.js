@@ -40,6 +40,7 @@ document.getElementById('button').addEventListener('click', function() {
             image.style.display = 'block'
             // search count is incremented
             countSearches++;
+            // result1 is displayed as a block
             document.getElementById('result1').style.display = 'block';
             }
         else if (countSearches == 1) {
@@ -69,8 +70,10 @@ document.getElementById('button').addEventListener('click', function() {
 });
 
 document.getElementById('clearButton').addEventListener('click', function() {
+    // results are removed
     document.getElementById('result1').style.display = 'none';
     document.getElementById('result2').style.display = 'none';
+    // searches are now set to start again at 0
     countSearches= 0;
 
  });
