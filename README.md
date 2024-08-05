@@ -14,7 +14,8 @@ How to install:
 
 - Click on the Code<> button on repository and download as a zip file.
 - Save this file onto your laptop or device.
-- To view code open in a text editor and open application on a web browser.(Use GoLive extension on Visual Studio Code)
+- To view code open in a text editor
+- Open application on a web browser(use GoLive extension on Visual Studio Code).
 
 How to use:
 
